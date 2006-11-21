@@ -11,12 +11,22 @@ URL:		http://offog.org/code/onenetd.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-onenetd is a single-server inetd, similar to Dan Bernstein's tcpserver or
-courier-tcpd from Courier-IMAP. It is small, has been shown to work happily on
-Linux and Solaris, and supports limiting the number of concurrent connections
-and refusing further connections with a configurable message (useful for
-limiting connections to busy FTP servers, for instance). See the included
-manual page for all the options.
+onenetd is a single-server inetd, similar to Dan Bernstein's tcpserver
+or courier-tcpd from Courier-IMAP. It is small, has been shown to work
+happily on Linux and Solaris, and supports limiting the number of
+concurrent connections and refusing further connections with a
+configurable message (useful for limiting connections to busy FTP
+servers, for instance). See the included manual page for all the
+options.
+
+%description -l pl
+onenetd to inetd dla pojedynczego serwera, podobny do tcpservera Dana
+Bernsteina czy courier-tcpd z Courier-IMAP-a. Jest ma³y i w praktyce
+dzia³a na Linuksie i Solarisie, obs³uguje ograniczanie liczby
+jednoczesnych po³±czeñ i odrzucanie dalszych z konfigurowalnym
+komunikatem (przydatne do ograniczania po³±czeñ na przyk³ad do
+obci±¿onych serwerów FTP). Wszystkie opcje mo¿na znale¼æ w za³±czonej
+stronie manuala.
 
 %prep
 %setup -q
