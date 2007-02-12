@@ -1,5 +1,5 @@
 Summary:	onenetd - a single-server inetd
-Summary(pl):	onenetd - inetd dla jednego serwera
+Summary(pl.UTF-8):   onenetd - inetd dla jednego serwera
 Name:		onenetd
 Version:	1.11
 Release:	1
@@ -19,13 +19,13 @@ configurable message (useful for limiting connections to busy FTP
 servers, for instance). See the included manual page for all the
 options.
 
-%description -l pl
+%description -l pl.UTF-8
 onenetd to inetd dla pojedynczego serwera, podobny do tcpservera Dana
-Bernsteina czy courier-tcpd z Courier-IMAP-a. Jest ma³y i w praktyce
-dzia³a na Linuksie i Solarisie, obs³uguje ograniczanie liczby
-jednoczesnych po³±czeñ i odrzucanie dalszych z konfigurowalnym
-komunikatem (przydatne do ograniczania po³±czeñ na przyk³ad do
-obci±¿onych serwerów FTP). Wszystkie opcje mo¿na znale¼æ w za³±czonej
+Bernsteina czy courier-tcpd z Courier-IMAP-a. Jest maÅ‚y i w praktyce
+dziaÅ‚a na Linuksie i Solarisie, obsÅ‚uguje ograniczanie liczby
+jednoczesnych poÅ‚Ä…czeÅ„ i odrzucanie dalszych z konfigurowalnym
+komunikatem (przydatne do ograniczania poÅ‚Ä…czeÅ„ na przykÅ‚ad do
+obciÄ…Å¼onych serwerÃ³w FTP). Wszystkie opcje moÅ¼na znaleÅºÄ‡ w zaÅ‚Ä…czonej
 stronie manuala.
 
 %prep
