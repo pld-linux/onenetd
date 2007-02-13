@@ -1,5 +1,5 @@
 Summary:	onenetd - a single-server inetd
-Summary(pl.UTF-8):   onenetd - inetd dla jednego serwera
+Summary(pl.UTF-8):	onenetd - inetd dla jednego serwera
 Name:		onenetd
 Version:	1.11
 Release:	1
